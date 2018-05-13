@@ -57,7 +57,6 @@ class BurgerBuilder extends Component {
                 return sum;
             }, 0);
         this.setState({purchasable: sum > 0});
-        console.log('sum = ', sum);
     };
     purchaseHandler = () => {
       this.setState({purchase: true});
