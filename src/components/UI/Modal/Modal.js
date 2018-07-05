@@ -27,7 +27,6 @@ class Modal extends Component {
                 </div>
             </Aux>
         );
-
     };
 };
 
